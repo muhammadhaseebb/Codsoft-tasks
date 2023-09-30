@@ -1,0 +1,60 @@
+.Home {
+  height: 100%;
+  width: auto;
+  background-color: #141414;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+h1 {
+  color: white;
+  font-family: "Montserrat-Bold";
+  font-size: 48px;
+  margin: 0;
+}
+
+h2 {
+  color: white;
+  font-family: "GoodVibrations";
+  font-size: 32px;
+  color: orange;
+  opacity: 70%;
+}
+
+p {
+  color: white;
+  font-family: "Montserrat";
+}
+
+.intro {
+  width: 45%;
+  /* background-color: red; */
+}
+
+.profile {
+  height: 500px;
+  width: 500px;
+}
+
+button {
+  height: 45px;
+  width: 140px;
+  background-color: orange;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: none;
+  font-family: "Montserrat-Bold";
+}
+
+button:hover {
+  background-color: white;
+
+  opacity: 80%;
+}
